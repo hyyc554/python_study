@@ -1,0 +1,2 @@
+2018-04-28 11:12:00,548 - access - ERROR - %(asctime)s - %(name)s - %(levelname)s - %(message)s
+2018-04-28 11:13:23,817 - access - ERROR - account [1234] too many login attempts

@@ -1,0 +1,4 @@
+create table class
+cid int aotuincr
+cname char
+primerykey
