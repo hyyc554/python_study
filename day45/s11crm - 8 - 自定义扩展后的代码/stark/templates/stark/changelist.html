@@ -1,0 +1,20 @@
+{% extends 'stark/layout.html' %}
+
+{% block content %}
+    <div>
+
+        {% if add_btn %}
+        <div style="margin: 5px 0;">
+            {{ add_btn }}
+        </div>
+        {% endif %}
+        <table class="table table-bordered">
+            {% load mytags %}
+            {% get_list_tag self  %}
+        </table>
+
+    </div>
+
+
+
+{% endblock %}
